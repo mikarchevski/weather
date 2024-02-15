@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+  
+</head>
+<body>
+    <div class="container">
+        <h1 class="weather__title">Weather widget</h1>
+        <div class="weather__wrap">
+            <p class="weather__form-place">
+                Узнайте погоду в
+                <span class="weather__form-place-town">вашем городе</span>
+            </p>
+            <div class="weather__form-fields">
+                <input type="text" class="weather__form-fields-city" placeholder="Уточните город">
+                <button class="weather__form-fields-btn">
+                    проверить
+                </button>
+            </div>
+            
+            <div class="weather__form-info">
+                <img src="img.png" alt="" class="weather__form-info-icon">
+                <p class="weather__form-info-desc weather__form-info-detail"> </p>
+                <p class="weather__form-info-detail">
+                    <span class="weather__form-info-title">Температура воздуха:</span>
+                    <span class="weather__form-info-deg"></span> 
+                </p>
+                <p class="weather__form-info-detail">
+                    <span class="weather__form-info-title">Ощущается как:</span>
+                    <span class="weather__form-info-feelslike"></span> 
+                </p>
+                <p class="weather__form-info-detail">
+                    <span class="weather__form-info-title">Скорость ветра:</span>
+                    <span class="weather__form-info-wind"></span> 
+                </p>
+
+            </div>
+        </div>
+        <div id="place"></div> 
+    </div>
+    
+    <script src="js/sctipt.js"></script>
+   
+</body>
+</html>

@@ -1,1 +1,2 @@
-# weather
+# Weather-widget
+Simple weather widget
